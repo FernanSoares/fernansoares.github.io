@@ -1,0 +1,15 @@
+.tilt-container {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.tilt-container > img:first-child {
+  transform: translateZ(100px);
+  position: absolute;
+}
+
+.tilt-container > img:nth-child(2) {
+  transform: translateZ(50px);
+  position: absolute;
+}
+

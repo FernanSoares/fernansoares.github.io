@@ -1,0 +1,12 @@
+@media (min-width: 300px) {
+  #curriculo {
+    margin-top: 10px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  #curriculo {
+    margin-top: 0px !important;
+  }
+}
+
